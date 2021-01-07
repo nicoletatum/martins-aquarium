@@ -1,0 +1,24 @@
+.headBox{ /*parent header*/
+    display:flex;
+    /* background-color: red; */
+    flex-flow:row-wrap;
+    justify-content: center;
+
+  }
+  .top{ /*child*/
+    flex-direction: row; 
+    /* background-color: pink; */
+  }
+
+.martin{ /*child*/
+    text-align:center;
+    /* background-color:orange; */
+  }
+
+  .kmslol{ /*child*/
+    display:flex;
+    text-align:center;
+    justify-content:space-between;
+    border:2%;
+    /* background-color:yellow; */
+  }

@@ -1,0 +1,37 @@
+.contentContainer{
+    background-color:rgb(72, 170, 72);
+    display:flex;
+    justify-content: space-around;
+  }
+  
+.containerLeft{
+    display:flex;
+    flex-flow: column wrap;
+    flex-basis:70%;
+    flex-direction: column;
+    border: rgb(92, 105, 15) solid;
+}
+.containerLeft__fishList{
+    display: flex;
+  flex-direction: row;
+  border: white solid;
+  justify-content: space-between;
+  }
+
+  .fishCard{
+    display:flex;
+    flex-flow: column wrap;
+    background-color: teal;
+    border:red solid;
+
+    
+  }
+
+.containterLeft__travelQuotes{
+    border: white solid;
+    background-color: white;
+ }
+
+ .containerLeft__travelLocations{
+      border: white solid;
+ }
