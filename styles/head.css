@@ -1,6 +1,6 @@
 .headBox{ /*parent header*/
     display:flex;
-    /* background-color: red; */
+    background-color: red;
     flex-flow:row-wrap;
     justify-content: center;
 
@@ -15,7 +15,7 @@
     /* background-color:orange; */
   }
 
-  .kmslol{ /*child*/
+  .navLinks{ /*child*/
     display:flex;
     text-align:center;
     justify-content:space-between;

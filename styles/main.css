@@ -1,0 +1,21 @@
+@import "../styles/foot.css";
+@import "../styles/left.css";
+@import "../styles/right.css";
+@import "../styles/head.css";
+
+.contentArticle {
+    background-color:rgba(174, 238, 217, 0.74);
+  }
+  
+  .contentContainer {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .containerLeft {
+    flex-basis: 75%;
+  }
+  
+  .containerRight {
+    flex-basis: 25%;
+  }
