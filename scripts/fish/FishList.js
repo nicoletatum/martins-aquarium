@@ -4,18 +4,19 @@
 
 // TODO: Import `useFish` from the data provider module
 
-import { useFish } from './FishDataProvider.js'
+import { useFish } from "./FishDataProvider.js"
 import { Fish } from "./Fish.js"
 
 export const FishList = () => {
 
     const contentElement = document.querySelector(".containerLeft")
-    const fishes = useFish()
-
+    const fishArray = useFish()
+    // const fishes = useFish()
+    
     let fishHTMLRepresentations = ""
 
-    for (const fish of fishes) {
-     fishHTMLRepresentations += Fish(fish)  
+    for (const fishObj of fishArray) {
+     fishHTMLRepresentations += Fish(fishObj)  
     
     }
 
