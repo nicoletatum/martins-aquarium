@@ -4,12 +4,13 @@
 @import "../styles/head.css";
 
 .contentArticle {
-    background-color:rgba(174, 238, 217, 0.74);
+    background-color:rgba(213, 252, 172, 0.26);
   }
   
   .contentContainer {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    background-color: navy;
   }
   
   .containerLeft {

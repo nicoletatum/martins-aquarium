@@ -1,10 +1,15 @@
 .headBox{ /*parent header*/
     display:flex;
-    background-color: red;
+    background-color: rgba(50, 60, 148, 0.548);
     flex-flow:row-wrap;
-    justify-content: center;
+    justify-content:space-evenly;
 
   }
+
+  .fishy{
+    align-self:flex-start
+  }
+
   .top{ /*child*/
     flex-direction: row; 
     /* background-color: pink; */
@@ -20,6 +25,6 @@
     text-align:center;
     justify-content:space-between;
     border:2%;
-    /* background-color:yellow; */
+    background-color:yellow;
   }
   
