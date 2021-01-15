@@ -6,7 +6,7 @@ const fishCollection = [
         location: "mauris ",
         length: "ultrices ",
         diet: "eros",
-        image:"#"
+        image:"../images/fish-1.jpeg"
 
     },
     {
@@ -15,7 +15,7 @@ const fishCollection = [
         location: "mauris ",
         length: "ultrices ",
         diet: "eros",
-        image:"#"
+        image:"../images/fish-2.jpg"
 
     },
     {
@@ -24,7 +24,7 @@ const fishCollection = [
         location: "mauris ",
         length: "ultrices ",
         diet: "eros",
-        image:"#"
+        image:"../images/fish-3.jpeg"
 
     },
     {
@@ -33,7 +33,7 @@ const fishCollection = [
         location: "mauris ",
         length: "ultrices ",
         diet: "eros",
-        image:"#"
+        image:"../images/fish-4.jpg"
 
     },
     {
@@ -42,7 +42,7 @@ const fishCollection = [
         location: "mauris ",
         length: "ultrices ",
         diet: "eros",
-        image:"#"
+        image:"../images/fish-5.jpg"
 
     }
 ]

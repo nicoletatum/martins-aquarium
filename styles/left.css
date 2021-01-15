@@ -11,6 +11,10 @@
     align-items: center;
   }
 
+  .fishCard__img{
+    max-width: 175px;
+  }
+
 .containterLeft__travelQuotes{
   display:flex;
   flex-direction: row;
@@ -21,3 +25,4 @@
  .containerLeft__travelLocations{
       border: white solid;
  }
+
