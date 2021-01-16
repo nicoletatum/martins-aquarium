@@ -4,8 +4,8 @@ const fishCollection = [
         name: "vestibulum",
         species: "lectus",
         location: "mauris ",
-        length: "ultrices ",
-        diet: "eros",
+        length: 4,
+        diet: "ultrices ",
         image:"../images/fish-1.jpeg"
 
     },
@@ -13,8 +13,8 @@ const fishCollection = [
         name: "vestibulum",
         species: "lectus",
         location: "mauris ",
-        length: "ultrices ",
-        diet: "eros",
+        length: 2,
+        diet: "ultrices ",
         image:"../images/fish-2.jpg"
 
     },
@@ -22,8 +22,8 @@ const fishCollection = [
         name: "vestibulum",
         species: "lectus",
         location: "mauris ",
-        length: "ultrices ",
-        diet: "eros",
+        length: 7,
+        diet: "ultrices ",
         image:"../images/fish-3.jpeg"
 
     },
@@ -31,7 +31,7 @@ const fishCollection = [
         name: "vestibulum",
         species: "lectus",
         location: "mauris ",
-        length: "ultrices ",
+        length: 12,
         diet: "eros",
         image:"../images/fish-4.jpg"
 
@@ -40,13 +40,52 @@ const fishCollection = [
         name: "vestibulum",
         species: "lectus",
         location: "mauris ",
-        length: "ultrices ",
-        diet: "eros",
+        length: 3,
+        diet: "ultrices ",
         image:"../images/fish-5.jpg"
 
     }
 ]
 
 export const useFish = () => {
-    return fishCollection.slice()
+    return fishCollection.slice();
+}
+
+export const mostHolyFish = () => {
+    const holyFish = []
+
+    for (const fish of fishCollection) {
+        if (fish.length % 3 === 0){
+            // console.log(fish)
+            holyFish.push(fish)
+        }
+    }
+
+    return holyFish
+}
+
+export const soldierFish = () => {
+    const soldiers = []
+
+    for (const fish of fishCollection){
+        if (fish.length % 5 === 0){
+            // console.log(fish)
+            soldiers.push(fish)
+        }
+    }
+
+    return soldiers
+}
+
+export const nonHolyFish = () => {
+    const regularFish = []
+
+    for (const fish of fishCollection){
+        if (fish.length % 3 !== 0 && fish.length %5 !== 0){
+            // console.log(fish)
+            regularFish.push(fish)
+        }
+    }
+
+    return regularFish
 }
