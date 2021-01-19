@@ -3,20 +3,25 @@
 @import "../styles/right.css";
 @import "../styles/head.css";
 
-.contentArticle {
-    background-color:rgba(213, 252, 172, 0.26);
-  }
-  
+
   .contentContainer {
     display: flex;
     justify-content: space-around;
-    background-color: navy;
+    background-color: rgb(164, 164, 184);
   }
   
   .containerLeft {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
     flex-basis: 75%;
   }
   
   .containerRight {
+    display: flex;
     flex-basis: 25%;
   }
+  .contentArticle {
+    background-color:rgba(213, 252, 172, 0.26);
+  }
+  

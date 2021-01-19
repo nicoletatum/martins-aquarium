@@ -29,7 +29,7 @@ export const FishList = () => {
 
     let regularFishHTMLRepresentation = "";
     for (const fish of regularFishArray) {
-        regularFishHTMLRepresentation += soldierFish(fish)  
+        regularFishHTMLRepresentation += Fish(fish)  
     }
 
 
