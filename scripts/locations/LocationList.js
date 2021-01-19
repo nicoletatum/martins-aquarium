@@ -12,6 +12,6 @@ export const locationList = () => {
     contentElement.innerHTML +=`
     <article class="containerLeft">
     ${locationHTMLRepresentation}
-    <article>
+    </article>
     `
 }

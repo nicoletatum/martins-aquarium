@@ -1,25 +1,25 @@
 
 .containerLeft__fishList{
-  display: flex;
-  flex-flow:row wrap;
-  justify-content: space-around;
-  }
-
+  /* display: flex; */
+}
   .fishCard{
-    display:flex;
-    flex-flow:column wrap;
-    align-items: center;
+    background-color: rgba(255, 255, 255, 0.822);
+    border-radius: 8px;
+    text-align: center;
+    padding: 0em 3em 0em 3em;
+ 
   }
 
   .fishCard__img{
     max-width: 175px;
+    border-radius: 10px;
   }
 
 .containterLeft__travelQuotes{
-  display:flex;
+  /* display:flex;
   flex-direction: row;
     border: white solid;
-    background-color: white;
+    background-color: white; */
  }
 
  .containerLeft__travelLocations{
